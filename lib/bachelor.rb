@@ -1,8 +1,11 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
-  data = JSON.parse(File.read('spec/fixtures/contestants.json'))
-  binding.pry
+  # data = JSON.parse(File.read('spec/fixtures/contestants.json'))
+  # binding.pry
+  data.each do |season_number, info|
+    
+  end
 end
 
 def get_contestant_name(data, occupation)
