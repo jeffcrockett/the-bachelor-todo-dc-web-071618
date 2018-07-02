@@ -1,7 +1,7 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
-  data = JSON.parse(File.read('spec/fixtures/contestants.json'
+  data = JSON.parse(File.read('spec/fixtures/contestants.json'))
   binding.pry
 end
 
