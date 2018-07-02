@@ -4,7 +4,7 @@ def get_first_name_of_season_winner(data, season)
   data = JSON.parse(File.read('spec/fixtures/contestants.json'))
   binding.pry
   data[season].each do |person|
-    return person["name"].split(' ').first if person["status"] == "Winner" end
+    return person["name"].split(' ').first if person["status"] == "Winner" 
       # binding.pry
     end
   end
